@@ -1,0 +1,14 @@
+Source: kyandex-fotki-screensaver
+Section: kde
+Priority: optional
+Maintainer: Sergei Svistunov <sergei-svistunov@yandex.ru>
+Build-Depends: debhelper (>= 8.0.0), cmake, libqt4-dev, kde-workspace-dev, libgl1-mesa-dev, libglu1-mesa-dev, libmagick++-dev, libcurl4-openssl-dev, libxml2-dev
+Standards-Version: 3.9.4
+Vcs-Git: https://github.com/sergei-svistunov/KYandexFotkiScreenSaver.git
+Vcs-Browser: https://github.com/sergei-svistunov/KYandexFotkiScreenSaver
+
+Package: kyandex-fotki-screensaver
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Description: KDE Yandex.Fotki screensaver
+ Download photos from TOP 50 and slide them with effects

@@ -1,0 +1,9 @@
+/build
+/CMakeLists.txt.user
+/.cproject
+/.project
+CMakeCache.txt
+CMakeFiles
+Makefile
+cmake_install.cmake
+install_manifest.txt

@@ -1,0 +1,28 @@
+[Desktop Entry]
+Exec=kyandexfotki.kss
+Icon=preferences-desktop-screensaver
+Type=Service
+X-KDE-ServiceTypes=ScreenSaver
+Actions=Setup;InWindow;Root;
+X-KDE-Category=OpenGL Screen Savers
+X-KDE-Type=OpenGL
+Name=Yandex.Fotki (GL)
+Name[ru]=Яндекс.Фотки (GL)
+
+[Desktop Action Setup]
+Exec=kyandexfotki.kss -setup
+Name=Setup...
+Name[ru]=Настройка...
+Icon=preferences-desktop-screensaver
+
+[Desktop Action InWindow]
+Exec=kyandexfotki.kss -window-id %w
+Name=Display in Specified Window
+Name[ru]=Показывать в указанном окне
+NoDisplay=true
+
+[Desktop Action Root]
+Exec=kyandexfotki.kss -root
+Name=Display in Root Window
+Name[ru]=Показывать в корневом окне
+NoDisplay=true
